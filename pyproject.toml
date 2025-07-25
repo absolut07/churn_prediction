@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "churn-prediction"
+version = "0.1.0"
+dependencies = [
+    "ipykernel",
+    "pandas",
+    "numpy==2.2",
+    "scikit-learn>=1.6.1",
+    "xgboost",
+    "matplotlib",
+    "imbalanced-learn>=0.13.0",
+    "seaborn",
+    "openpyxl",
+    "black",
+    "mlflow",
+    "shap>=0.48",
+    "lightgbm",
+    "catboost",
+]
+requires-python = ">=3.13"
